@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Analog Clock</title>
 </head>
 <body>
     <div class="container">
         <div class="clock">
-            <div class="circle" style="--clr:#1d0000;"><span class="hand"></span></div>
-            <div class="circle circle-2" style="--clr:#6d502f;"><span class="hand hand2"></span></div>
-            <div class="circle circle-3" style="--clr:#6f4617;"><span class="hand hand3"></span></div>
+            <div class="circle" style="--clr:#1d0000;" id="second"><span></span></div>
+            <div class="circle circle-2" style="--clr:#6d502f;" id="minute"><span></span></div>
+            <div class="circle circle-3" style="--clr:#6f4617;" id="hour"><span></span></div>
 
             <span class="number" style="--i:1;"><b>1</b></span>
             <span class="number" style="--i:2;"><b>2</b></span>
@@ -28,5 +28,6 @@
             <span class="number" style="--i:12;"><b>12</b></span>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
