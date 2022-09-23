@@ -156,6 +156,7 @@ body {
 }
 
 .digital-clock:nth-child(2)::after {
+    color: #1d0000;
     animation: animate 1s steps(1) infinite;
 }
 
